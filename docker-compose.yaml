@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+    reverse-proxy:
+        image: nginx:latest
+        container_name: reverse-proxy
+        volumes: 
+            - ./public:/usr/share/nginx/html
+        ports: 
+            - 7777:80

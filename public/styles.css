@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    background-color: brown;
+    outline: none;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.textarea {
+    width: 500px;
+    height: 600px;
+    border: solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2%;
+    overflow: scroll;
+}
+
+.controls {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    border: rgb(145, 30, 10) solid 4px;
+    background-color: rgb(143, 5, 5);
+    color: white;
+    height: 30px;
+    width: 100px;
+    
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
